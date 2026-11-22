@@ -2,35 +2,48 @@
 [
     {
         "title": "Thesis Group Task Board",
-        "description": "A thesis management application that helps students organize thesis groups, manage members, assign tasks, set deadlines, and monitor project progress.",
+        "description": "A thesis management application that allows students to create thesis groups, manage group members, assign tasks, set deadlines, and monitor their progress.",
         "technologies": "Flutter, Dart, Supabase, GitHub",
         "role": "Developer",
-        "screenshot": "thesis-task-board.jpg",
-        "link": "https://github.com/JohnPeterBullos/JohnPeterBullos.github.io",
+        "link": "https://github.com/JohnPeterBullos/JohnPeterBullos.github.io/tree/flutter-app",
         "live": "https://johnpeterbullos.github.io/"
+    },
+    {
+        "title": "Network Troubleshooting Lab",
+        "description": "Practiced diagnosing network connectivity issues by checking IP configurations, default gateways, and basic routing in a simulated network environment.",
+        "technologies": "Networking, IP Addressing, Troubleshooting",
+        "role": "Network Troubleshooter"
+    },
+    {
+        "title": "Personal Portfolio Website",
+        "description": "Designed and developed a personal portfolio website to showcase my background, technical skills, academic projects, and experience as an Information Technology student.",
+        "technologies": "HTML, CSS, JavaScript, Responsive Web Design",
+        "role": "Web Developer",
+        "link": "https://github.com/JohnPeterBullos/JohnPeterSBullos.github.io",
+        "live": "https://johnpeterbullos.github.io/JohnPeterSBullos.github.io/"
+    },
+    {
+        "title": "Java Student Record System",
+        "description": "Developed a Java application for managing student records, including adding, viewing, updating, and deleting student information.",
+        "technologies": "Java, Object-Oriented Programming, CRUD Operations",
+        "role": "Java Developer"
     },
     {
         "title": "Laravel Student Management System",
         "description": "A simple web application for managing student information using Laravel CRUD features.",
         "technologies": "Laravel, PHP, MySQL, Blade, HTML, CSS",
-        "role": "Developer",
-        "screenshot": "student-system.jpg",
-        "link": "https://github.com/"
+        "role": "Developer"
     },
     {
         "title": "Laravel Product Management System",
         "description": "A simple product management website that allows users to view and manage products.",
         "technologies": "Laravel, PHP, MySQL, Blade, HTML, CSS",
-        "role": "Developer",
-        "screenshot": "product-system.jpg",
-        "link": "https://github.com/"
+        "role": "Developer"
     },
     {
         "title": "Sensor-Driven Mobile App",
         "description": "A mobile application that uses the device accelerometer to control an animated object.",
         "technologies": "React Native, Expo, JavaScript",
-        "role": "Developer",
-        "screenshot": "mobile-app.jpg",
-        "link": "https://github.com/"
+        "role": "Developer"
     }
 ]
