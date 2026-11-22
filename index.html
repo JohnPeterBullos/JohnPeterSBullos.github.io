@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Peter S. Bullos | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyPortfolio</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="home">
+            <div class="home-text">
+                <p class="small-text">HELLO, I'M</p>
+
+                <h1>John Peter S. Bullos</h1>
+                <h2>Aspiring Web Developer</h2>
+
+                <p>
+                    I am a BS Information Technology student interested in
+                    networking, programming, and creating useful
+                    technology-based projects.
+                </p>
+
+                <a href="#projects" class="button">View My Projects</a>
+            </div>
+
+            <div class="home-image">
+                <img src="profile.jpg" alt="Profile Picture">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content">
+                <div>
+                    <h3>Biography</h3>
+                    <p>
+                        I am a Bachelor of Science in Information Technology
+                        student who is interested in learning web development
+                        and software technologies. I enjoy creating projects
+                        that allow me to practice programming and problem-solving.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Education</h3>
+                    <p>
+                        <strong>School:</strong>
+                        Nueva Vizcaya State University
+                    </p>
+                    <p>
+                        <strong>Program:</strong>
+                        Bachelor of Science in Information Technology
+                    </p>
+                    <p>
+                        <strong>Expected Graduation:</strong> 2029
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Career Goals</h3>
+                    <p>
+                        My goal is to become a web developer and improve
+                        my skills in frontend and backend development.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Interests</h3>
+                    <p>
+                        Web development, programming, databases, mobile apps,
+                        online games, movies, music, and learning new technologies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>Dart</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li>Laravel</li>
+                        <li>MySQL</li>
+                        <li>Git & GitHub</li>
+                        <li>React Native / Expo</li>
+                        <li>Flutter</li>
+                        <li>Supabase</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Critical Thinking</li>
+                        <li>Time Management</li>
+                        <li>Willingness to Learn</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">My Projects</h2>
+
+            <div id="project-list" class="project-list"></div>
+
+            <h2 class="section-title github-title">GitHub Repositories</h2>
+            <div id="github-list" class="project-list"></div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+
+                    <p>
+                        If you want to know more about my projects or skills,
+                        feel free to contact me.
+                    </p>
+
+                    <p>
+                        <strong>Email:</strong>
+                        <a href="mailto:your-email@example.com">
+                            your-email@example.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>GitHub:</strong>
+                        <a href="https://github.com/JohnPeterBullos"
+                           target="_blank" rel="noopener noreferrer">
+                            JohnPeterBullos
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>LinkedIn:</strong>
+                        <span>Not provided</span>
+                    </p>
+                </div>
+
+                <form id="contact-form">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"
+                              rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                    <p id="form-message" role="status"></p>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 John Peter S. Bullos. All rights reserved.</p>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
